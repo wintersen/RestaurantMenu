@@ -1,25 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="EN">
 
 <head>
     <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible">
-    <title>Cool - Menu</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>El Ristorante Mucho Cute Menu</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="menu-styles.css" />
 </head>
 
 <body>
+    <div class="nav">
+        <a href="#dinnerMenu">Dinner Menu</a> <br>
+        - <a href="#appetizers">Appetizers</a> <br>
+        - <a href="#entrees">Entrees</a> <br>
+        - <a href="#sides">Sides</a> <br>
+        - <a href="#desserts">Desserts</a> <br>
+        <a href="#combinationMenu">Combination Menu</a> <br>
+        <a href="#restaurantLocation">Our Location</a>
+    </div>
+
     <div class="header">
         <h1>El Ristorante Mucho Cute's Menu</h1>
     </div>
-    <div class="subheader">
+    <!-- Begin Main Menu -->
+    <div class="subheader" id="dinnerMenu">
         <h2>Dinner Menu</h2>
     </div>
-    <div class="section">
+    <div class="section" id="appetizers">
         <div class="imageOverlay">
             <!-- image source: http://jessfuel.com/2016/03/14/dilly-cucumber-bites/ -->
-            <img src="images/Dilly-Cucumber-Bites-5.jpg" style="object-fit: cover;height: inherit; width: inherit;">
+            <img src="images/Dilly-Cucumber-Bites-5.jpg" alt="Cucumber Bites" style="object-fit: cover;height: inherit; width: inherit;">
         </div>
         <div class="menu">
             <h3>Appetizers</h3>
@@ -34,113 +45,149 @@
                         <br> &emsp;If these little guys deep fried in a light tempura batter and covered in our home-made
                         coconut cream sauce don't make you think of a tropic vacation, nothing will!
                     </li>
-                    <li><strong>Teeny-Weeny Cucumber Bites &mdash; $4.95</strong>
-                        <br> &emsp;Desc
+                    <li><strong>Spicy Kiche Poppers &mdash; $4.95</strong>
+                        <br> &emsp;Spice up your life with our lip-smacking good cheese kiche poppers served with a chili
+                        sauce and sour cream!
                     </li>
-                    <li><strong>Teeny-Weeny Cucumber Bites &mdash; $4.95</strong>
-                        <br> &emsp;Desc
+                    <li><strong>Big Momma's Feast &mdash; $6.95</strong>
+                        <br> &emsp;Have a large group? Can't decide on one appetizer? This sampler platter will be more than
+                        enough to solve your problems!
                     </li>
                 </ul>
             </div>
         </div>
     </div>
 
-    <div class="section">
+    <div class="section" id="entrees">
         <div class="imageOverlay">
             <!-- image source: http://favim.com/image/3591928/ -->
-            <img src="images/cheese-cute-food-deviantart-ghost-Favim.com-3591928.jpg" style="object-fit: cover;height: inherit; width: inherit;">
+            <img src="images/cheese-cute-food-deviantart-ghost-Favim.com-3591928.jpg" alt="Spooky Ghost Pizza" style="object-fit: cover;height: inherit; width: inherit;">
         </div>
         <div class="menu">
             <h3>Entrees</h3>
-            <p>Full plate meals that come with your choice of one regular side and a drink. Let us know about any food allergies
-                when you order!</p>
+            <p>Full plate meals that come with your choice of one regular side and a drink.
+                <br> Let us know about any food allergies when you order!</p>
             <ul>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Spooky Ghost Pizza &mdash; $6.66</strong>
+                    <br> &emsp;Scare away the hunger with our hand-tossed brick over pizza featuring fresh mozarella in the
+                    shape of ghosts and olive spiders!
                 </li>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Pretty in Pink Pasta &mdash; $7.95</strong>
+                    <br> &emsp;Try our specialty fettuccine pasta, covered in a pink vodka sauce guaranteed to make you blush!
                 </li>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Godzilla Cucumber Bites &mdash; $6.00</strong>
+                    <br> &emsp;Were the Teeny-Weeny bites not enough for your diet cravings? Take on the challenge of our
+                    scientifically-enhanced, 12-inch diameter cucumber bites and sate that fresh craving!
                 </li>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Slip n' Slide Soup &mdash; $7.95</strong>
+                    <br> &emsp;Just try to eat our world-famous made-from-mostly-scratch pho soup, served with our secret
+                    noodles that are impossible to grab!
                 </li>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Big Poppa's Platter &mdash; $10.95</strong>
+                    <br> &emsp;Go big or go home with this smoked-meats platter featuring turkey, chicken thighs, sausage,
+                    and pork shoulder, served with a whole cabal of dipping sauces!
                 </li>
             </ul>
         </div>
     </div>
-    <div class="section">
+    <div class="section" id="sides">
         <div class="imageOverlay">
-            <!-- image source: http://favim.com/image/4015774/ -->
-            <img src="images/cute-cute-food-desserts-sweets-Favim.com-4015774.jpg" style="object-fit: cover;height: inherit; width: inherit;">
+            <!-- image source: https://www.bettycrocker.com/recipes/sassy-sugar-cinnamon-sweet-potato-fries-with-creamy-coconut-maple-dipping-sauce/8b5030b2-7f06-419d-9b18-24213f5623ae/ -->
+            <img src="images/b4bb9dbd-e7b1-4b4e-ac60-5649825e328b.jpg" alt="Super Sweet Potato Fries" style="object-fit: cover;height: inherit; width: inherit;">
         </div>
         <div class="menu">
             <h3>Sides</h3>
             <p>Little additions to add a little something extra to any meal.</p>
             <ul>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Super Sweet Potato Fries &mdash; $3.50</strong>
+                    <br> &emsp;Try our twist on the classic sweet potato fry with a sprinkling of cinnimon sugar!
                 </li>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Hushy Puppies &mdash; $3.95</strong>
+                    <br> &emsp;It might be hard to eat our puppy-face decorated hush puppies, but the jalapeno siracha surprise
+                    inside is worth the cold-blooded murder!
                 </li>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Salad &mdash; $2.85</strong>
+                    <br> &emsp;It's a salad.
                 </li>
             </ul>
         </div>
     </div>
-    <div class="section">
+    <div class="section" id="desserts">
         <div class="imageOverlay">
             <!-- image source: http://favim.com/image/4015774/ -->
-            <img src="images/cute-cute-food-desserts-sweets-Favim.com-4015774.jpg" style="object-fit: cover;height: inherit; width: inherit;">
+            <img src="images/cute-cute-food-desserts-sweets-Favim.com-4015774.jpg" alt="Monsieur's Macarons" style="object-fit: cover;height: inherit; width: inherit;">
         </div>
         <div class="menu">
             <h3>Desserts</h3>
             <p>Sweet treats for the strongest sugar tooth!</p>
             <ul>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Monsieur's Macarons&mdash; $4.95</strong>
+                    <br> &emsp;We get these from a French guy who hangs out behind the restaurant by the dumpster, so they're
+                    certified authentic!
                 </li>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Pure Sugar Puffs &mdash; $3.95</strong>
+                    <br> &emsp;Hopefully you care as little as we do for the health of your teeth! Light doughy puffs quickly
+                    deep fried and rolled in cinammon sugar for texture and taste!
                 </li>
-                <li>Dish 1
-                    <br> &emsp;Desc
+                <li><strong>Supreme Cheesecake &mdash; $4.95</strong>
+                    <br> &emsp;The most rich cheesecake you've ever had. We took three flavors of cheesecake (plain, chocolate,
+                    and raspberry) and stacked them to form a tower of cheesecake, then covered that with chocolate curl
+                    shavings and a decadent raspberry sauce.
                 </li>
             </ul>
         </div>
     </div>
-    <div class="subheader">
-        <h2>Combination Lunch Menu</h2>
+    <!-- End Main Menu -->
+    <!-- Begin Combination Menu -->
+    <div class="subheader" id="combinationMenu">
+        <h2>Combination Lunch Menu &mdash; $7.95</h2>
         <p class="subheading">For Weekdays, 12PM to 4PM dine-in customers only!</p>
     </div>
-    <div>
+    <div class="combinationDiv">
         <div class="combinationMenu">
             <h3>Small Plates</h3>
-            <p>Choose two</p>
+            <p>Choose two:</p>
             <ul>
-                <li></li>
+                <li>Teeny-Weeny Cucumber Bites</li>
+                <li>Spicy Kiche Poppers</li>
+                <li>Hotdog Octopuses</li>
+                <li>Cup of Slip n' Slide Soup</li>
+                <li>Hushy Puppies</li>
+                <li>Salad</li>
             </ul>
         </div>
         <div class="combinationMenu">
             <h3>Main Plate</h3>
-            <p>Choose one</p>
+            <p>Choose one:</p>
             <ul>
-                <li></li>
+                <li>Spooky Ghost Pizza</li>
+                <li>Pretty in Pink Pasta</li>
+                <li>Smokin' Turkey Thighs</li>
+                <li>Vegetarian Adventure</li>
+                <li>Half a Pressed Panini</li>
             </ul>
         </div>
         <div class="combinationMenu">
             <h3>Drinks</h3>
-            <p>Choose one</p>
+            <p>Choose one:</p>
             <ul>
-                <li></li>
+                <li>Soda</li>
+                <li>Cold Tea</li>
+                <li>Hot Tea</li>
+                <li>Lukewarm Tea</li>
+                <li>Milk Tea</li>
+                <li>Coffee</li>
+                <li>Water</li>
             </ul>
         </div>
+    </div>
+    <!-- End Combination Menu -->
+    <div class="subheader" id="restaurantLocation">
+        <h2>Come Find Us!</h2>
+    </div>
+    <div class="restaurantLocation">
+        <img src="https://maps.googleapis.com/maps/api/staticmap?center=Akihabara,Tokyo,Japan&zoom=13&size=600x300&maptype=roadmap"
+            alt="Photo of El Ristorante Mucho Cute">
     </div>
 </body>
 
